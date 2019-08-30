@@ -1,0 +1,91 @@
+#FormPage{
+    width: 100%;
+    padding: 30px;
+}
+
+#FormPage__Content{
+   width: 100%;
+   height: 100%;
+   padding: 30px;
+   display: flex;
+   justify-content: space-between;
+}
+
+#FormPage__Content__Left{
+    width: 50%;
+    height: 680px;
+    background-image: url("./form1.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#FormPage__Content__Right h4{
+    color: rgb(145, 18, 71)
+}
+
+#FormPage__Content__Right{
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+}
+
+#FormPage__Content__Right Form{
+    line-height: 50px;
+}
+
+#FormPage__Content__Right Form input[type="text"],[type="email"],[type="password"],[type="number"]{
+    color: rgb(145, 18, 71);
+    background-color: rgba(145, 18, 71, 0.048);
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+#FormPage__Content__Right Form textarea{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    resize: none;
+    height: 200px;
+    background-color: rgba(145, 18, 71, 0.048);
+}
+
+#FormPage__Content__Right Form input[type="Submit"]{
+    border-radius: 30px;
+    background-color: transparent;
+    color: rgb(145, 18, 71);;
+    border: 1px solid rgb(145, 18, 71);
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    transition: 0.3s all linear;
+}
+
+#FormPage__Content__Right Form input[type="Submit"]:hover{
+    
+    cursor: pointer;
+    background-color: rgb(145, 18, 71);
+    color: #fff;
+    border: 1px solid #fff;   
+}
+
+/* #Gender{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    }
+
+#Gender__Info{
+    font-size: 19px;
+    padding: 10px;
+    color: rgb(88, 87, 87);
+}
+
+#Gender__Info input[type="radio"]{
+    margin-top: 10px;
+   width: 15px;
+   height: 15px;
+} */

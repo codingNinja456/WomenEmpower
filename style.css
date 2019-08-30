@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none !important;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+hr{
+    border: none;
+    border-top: .5px solid rgb(145, 18, 71);
+    width: 50%;
+    margin: 3px auto 3px auto; 
+}
+
+.logo {
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.logo__text{
+    color: rgb(145, 18, 71)
+}
+
+#Hero-Image{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 100%;
+    height: 60%;
+    background-image: url("./hero1.png");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+#Hero__Content{
+    width: 30%;
+}
+
+#Hero__Content__Heading p{
+    color: rgb(145, 18, 71);
+}
+
+#Hero__Content__Heading p #pre{
+    letter-spacing: 4px;
+}
+
+/* #Hero__Content__Heading p #post{
+} */
+
+#Hero__Content__Heading #middle{
+    line-height: 45px;
+    font-size: 60px;
+    font-weight: bold;
+    letter-spacing: 10px;
+}
+
+#Hero__Content__btn{
+    text-decoration: none;
+  padding: 9px 22px;
+  border-radius: 20px;
+  background-color: transparent;
+  color: rgb(145, 18, 71);;
+  border: 1px solid rgb(145, 18, 71);
+  transition: 0.3s all linear;
+}
+
+#Hero__Content__btn:hover{
+    cursor: pointer;
+    background-color: rgb(145, 18, 71);
+    color: #fff;
+    border: 1px solid #fff;   
+}
+
+#Contribute__Content{
+    width: 100%;
+    /* height: 50%; */
+    color: white;
+    padding: 30px 30px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+#Contribute__Form{
+    line-height: 30px;
+    width: 90%;
+    text-align: center;
+}
+
+#Contribute__Content h3{
+    display: inline-block;
+    padding-left: 3px;
+    border-bottom: 2px solid  rgb(145, 18, 71);
+    border-left: 2px solid  rgb(145, 18, 71);
+    color: rgb(145, 18, 71);
+
+}
+
+#Contribute__Form h4{
+    text-align: center;
+    font-size: 30px;
+    color: rgb(145, 18, 71);;
+    padding-bottom: 20px;
+}
+
+#Contribute__Form select{
+ border-radius: 10px;
+  padding: 7px 30px;
+  border: 2px solid rgb(145, 18, 71);
+  color: rgb(145, 18, 71);;
+}
+
+#Contribute__Form input[type="Submit"]{
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgb(145, 18, 71);
+    color: #fff;
+    border: 1px solid #fff;  
+  transition: 0.3s all linear;
+
+}
+
+#Contribute__Form input[type="Submit"]:hover{
+    cursor: pointer;
+    background-color: transparent;
+  color: rgb(145, 18, 71);;
+  border: 1px solid rgb(145, 18, 71);   
+}
+
+#Footer{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(43, 41, 41);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+#Footer__Content h1{
+    font-size: 30px;
+}
+
+#Footer__Content h2{
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+#Footer__Icons{
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#Footer__Icons a{
+    text-decoration: none;
+    color: rgb(211, 211, 241);
+    transition: .25s all ease;
+}
+
+#Footer__Icons a:hover{
+    color: #fff;
+}
